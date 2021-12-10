@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="player ">
+        <!-- Title -->
+        <div class="dashboard">
+            <header>
+                <h4>Now playing:</h4>
+                <h2>ABBA - Gimme! Gimme! Gimme! (A Man After Midnight)</h2>
+            </header>
+            <!-- CD -->
+            <div class="cd">
+                <div class="cd-thumb"
+                style="background-image: url(./assets/img/ABBA\ -\ Gimme!\ Gimme!\ Gimme!\ \(A\ Man\ After\ Midnight\).jpg)">  
+                </div>
+            </div>
+            <!-- Control -->
+            <div class="control">
+                <div class="control-btn">
+                    <div class="btn btn-repeat">
+                        <span class="ti-loop"></span>
+                    </div>
+                    <div class="btn btn-prev">
+                        <span class="ti-control-skip-backward"></span>
+                    </div>
+                    <div class="btn btn-toggle-play">
+                        <span class="ti-control-play"></span>
+                        <span class="ti-control-pause"></span>
+                    </div>
+                    <div class="btn btn-next">
+                        <span class="ti-control-skip-forward"></span>
+                    </div>
+                    <div class="btn btn-shuffle">
+                        <span class="ti-control-shuffle"></span>
+                    </div>
+                </div>
+                <input type="range" name="" id="progress" class="progress" value="0" step="1" min="0" max="100">
+                <input type="range" name="" id="control-vol" class="control-vol" value="0" step="1" min="0" max="100">
+            </div>
+            <!-- Progress -->
+            
+            <!-- Audio -->
+            <audio src="./assets/music/ABBA - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" id="audio"></audio>
+        </div>
+        <div class="playlist">
+            
+            
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="./assets/script/script.js"></script>
+</body>
+</html>
